@@ -1,0 +1,167 @@
+/* App.css */
+
+/*.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.questions {
+  flex: 1;
+}
+
+.answers {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.questions div {
+  background-color: #d7b7c2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.answers div {
+  background-color: #d7b7c2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  width: 30px; /* Adjust the width as needed */
+  /*margin: 0 5px;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+p.correct {
+  color: green;
+}
+
+p.incorrect {
+  color: red;
+}*/
+
+/* App.css */
+
+
+.main-container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 150px;
+  text-align: center;
+  font-size: 40px;
+  background-color: #f8c48c;
+}
+
+.question-container {
+  background-color: #f3e3c0;
+  border-radius: 8px;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.question-container p {
+  font-size: 20px;
+}
+
+.answers p {
+  font-size: 18px;
+}
+
+.answers input {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.saved {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.button-container button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-container button.submit {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.button-container button.next {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: backgroun-color 0.3s, color 0.3s;
+}
+
+.button-container button.next:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+
+.popup {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .answers input {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    margin-right: 3px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
